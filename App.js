@@ -8,11 +8,11 @@ import Login from './Login';
 export default function App() {
   return (
     
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       
     <Login/>
     
-    </SafeAreaView>
+    </View>
    
   );
 }
@@ -20,8 +20,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
-    marginTop:70
+    backgroundColor: "#4aaaa5",
+   // marginTop:70
    // backgroundColor: '#4aaaa5',
     //alignItems: 'center',
    // justifyContent: 'center',
